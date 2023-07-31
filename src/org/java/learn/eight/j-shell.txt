@@ -1,0 +1,1114 @@
+Microsoft Windows [Version 10.0.19045.3208]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Saiful>jshell
+|  Welcome to JShell -- Version 11.0.17
+|  For an introduction type: /help intro
+
+jshell>
+
+jshell>
+
+jshell>
+
+jshell> List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker",   ...>
+jshell> List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker",   ...>
+AbstractCollection                       AbstractExecutorService
+AbstractList                             AbstractMap
+AbstractMethodError                      AbstractPreferences
+AbstractQueue                            AbstractSequentialList
+AbstractSet                              AccessDeniedException
+AccessMode                               Appendable
+ArithmeticException                      ArrayBlockingQueue
+ArrayDeque                               ArrayIndexOutOfBoundsException
+ArrayList                                ArrayStoreException
+Arrays                                   AssertionError
+AtomicMoveNotSupportedException          Authenticator
+AutoCloseable                            BackingStoreException
+Base64                                   BaseStream
+BiConsumer                               BiFunction
+BiPredicate                              BigDecimal
+BigInteger                               BinaryOperator
+BindException                            BitSet
+BlockingDeque                            BlockingQueue
+Boolean                                  BooleanSupplier
+BootstrapMethodError                     BrokenBarrierException
+BufferedInputStream                      BufferedOutputStream
+BufferedReader                           BufferedWriter
+Byte                                     ByteArrayInputStream
+ByteArrayOutputStream                    CacheRequest
+CacheResponse                            Calendar
+Callable                                 CancellationException
+CharArrayReader                          CharArrayWriter
+CharConversionException                  CharSequence
+Character                                Class
+ClassCastException                       ClassCircularityError
+ClassFormatError                         ClassLoader
+ClassNotFoundException                   ClassValue
+CloneNotSupportedException               Cloneable
+Closeable                                ClosedDirectoryStreamException
+ClosedFileSystemException                ClosedWatchServiceException
+Collection                               Collections
+Collector                                Collectors
+Comparable                               Comparator
+Compiler                                 CompletableFuture
+CompletionException                      CompletionService
+CompletionStage                          ConcurrentHashMap
+ConcurrentLinkedDeque                    ConcurrentLinkedQueue
+ConcurrentMap                            ConcurrentModificationException
+ConcurrentNavigableMap                   ConcurrentSkipListMap
+ConcurrentSkipListSet                    ConnectException
+Console                                  Consumer
+ContentHandler                           ContentHandlerFactory
+CookieHandler                            CookieManager
+CookiePolicy                             CookieStore
+CopyOnWriteArrayList                     CopyOnWriteArraySet
+CopyOption                               CountDownLatch
+CountedCompleter                         Currency
+CyclicBarrier                            DataInput
+DataInputStream                          DataOutput
+DataOutputStream                         DatagramPacket
+DatagramSocket                           DatagramSocketImpl
+DatagramSocketImplFactory                Date
+DelayQueue                               Delayed
+Deprecated                               Deque
+Dictionary                               DirectoryIteratorException
+DirectoryNotEmptyException               DirectoryStream
+Double                                   DoubleBinaryOperator
+DoubleConsumer                           DoubleFunction
+DoublePredicate                          DoubleStream
+DoubleSummaryStatistics                  DoubleSupplier
+DoubleToIntFunction                      DoubleToLongFunction
+DoubleUnaryOperator                      DuplicateFormatFlagsException
+EOFException                             EmptyStackException
+Enum                                     EnumConstantNotPresentException
+EnumMap                                  EnumSet
+Enumeration                              Error
+EventListener                            EventListenerProxy
+EventObject                              Exception
+ExceptionInInitializerError              Exchanger
+ExecutionException                       Executor
+ExecutorCompletionService                ExecutorService
+Executors                                Externalizable
+File                                     FileAlreadyExistsException
+FileDescriptor                           FileFilter
+FileInputStream                          FileNameMap
+FileNotFoundException                    FileOutputStream
+FilePermission                           FileReader
+FileStore                                FileSystem
+FileSystemAlreadyExistsException         FileSystemException
+FileSystemLoopException                  FileSystemNotFoundException
+FileSystems                              FileVisitOption
+FileVisitResult                          FileVisitor
+FileWriter                               FilenameFilter
+Files                                    FilterInputStream
+FilterOutputStream                       FilterReader
+FilterWriter                             Float
+Flow                                     Flushable
+ForkJoinPool                             ForkJoinTask
+ForkJoinWorkerThread                     FormatFlagsConversionMismatchException
+Formattable                              FormattableFlags
+Formatter                                FormatterClosedException
+Function                                 FunctionalInterface
+Future                                   FutureTask
+GregorianCalendar                        HashMap
+HashSet                                  Hashtable
+HttpCookie                               HttpRetryException
+HttpURLConnection                        IDN
+IOError                                  IOException
+IdentityHashMap                          IllegalAccessError
+IllegalAccessException                   IllegalArgumentException
+IllegalCallerException                   IllegalFormatCodePointException
+IllegalFormatConversionException         IllegalFormatException
+IllegalFormatFlagsException              IllegalFormatPrecisionException
+IllegalFormatWidthException              IllegalMonitorStateException
+IllegalStateException                    IllegalThreadStateException
+IllformedLocaleException                 IncompatibleClassChangeError
+IndexOutOfBoundsException                Inet4Address
+Inet6Address                             InetAddress
+InetSocketAddress                        InheritableThreadLocal
+InputMismatchException                   InputStream
+InputStreamReader                        InstantiationError
+InstantiationException                   IntBinaryOperator
+IntConsumer                              IntFunction
+IntPredicate                             IntStream
+IntSummaryStatistics                     IntSupplier
+IntToDoubleFunction                      IntToLongFunction
+IntUnaryOperator                         Integer
+InterfaceAddress                         InternalError
+InterruptedException                     InterruptedIOException
+InvalidClassException                    InvalidObjectException
+InvalidPathException                     InvalidPreferencesFormatException
+InvalidPropertiesFormatException         Iterable
+Iterator                                 JarURLConnection
+LayerInstantiationException              LineNumberInputStream
+LineNumberReader                         LinkOption
+LinkPermission                           LinkageError
+LinkedBlockingDeque                      LinkedBlockingQueue
+LinkedHashMap                            LinkedHashSet
+LinkedList                               LinkedTransferQueue
+List                                     ListIterator
+ListResourceBundle                       Locale
+Long                                     LongBinaryOperator
+LongConsumer                             LongFunction
+LongPredicate                            LongStream
+LongSummaryStatistics                    LongSupplier
+LongToDoubleFunction                     LongToIntFunction
+LongUnaryOperator                        MalformedURLException
+Map                                      MatchResult
+Matcher                                  Math
+MathContext                              MissingFormatArgumentException
+MissingFormatWidthException              MissingResourceException
+Module                                   ModuleLayer
+MulticastSocket                          NavigableMap
+NavigableSet                             NegativeArraySizeException
+NetPermission                            NetworkInterface
+NoClassDefFoundError                     NoRouteToHostException
+NoSuchElementException                   NoSuchFieldError
+NoSuchFieldException                     NoSuchFileException
+NoSuchMethodError                        NoSuchMethodException
+NodeChangeEvent                          NodeChangeListener
+NotActiveException                       NotDirectoryException
+NotLinkException                         NotSerializableException
+NullPointerException                     Number
+NumberFormatException                    ObjDoubleConsumer
+ObjIntConsumer                           ObjLongConsumer
+Object                                   ObjectInput
+ObjectInputFilter                        ObjectInputStream
+ObjectInputValidation                    ObjectOutput
+ObjectOutputStream                       ObjectStreamClass
+ObjectStreamConstants                    ObjectStreamException
+ObjectStreamField                        Objects
+Observable                               Observer
+OpenOption                               Optional
+OptionalDataException                    OptionalDouble
+OptionalInt                              OptionalLong
+OutOfMemoryError                         OutputStream
+OutputStreamWriter                       Override
+Package                                  PasswordAuthentication
+Path                                     PathMatcher
+Paths                                    Pattern
+PatternSyntaxException                   Phaser
+PipedInputStream                         PipedOutputStream
+PipedReader                              PipedWriter
+PortUnreachableException                 Predicate
+PreferenceChangeEvent                    PreferenceChangeListener
+Preferences                              PreferencesFactory
+PrimitiveIterator                        PrintStream
+PrintWriter                              PriorityBlockingQueue
+PriorityQueue                            Process
+ProcessBuilder                           ProcessHandle
+Properties                               PropertyPermission
+PropertyResourceBundle                   ProtocolException
+ProtocolFamily                           ProviderMismatchException
+ProviderNotFoundException                Proxy
+ProxySelector                            PushbackInputStream
+PushbackReader                           Queue
+Random                                   RandomAccess
+RandomAccessFile                         ReadOnlyFileSystemException
+Readable                                 Reader
+RecursiveAction                          RecursiveTask
+ReflectiveOperationException             RejectedExecutionException
+RejectedExecutionHandler                 ResourceBundle
+ResponseCache                            RoundingMode
+Runnable                                 RunnableFuture
+RunnableScheduledFuture                  Runtime
+RuntimeException                         RuntimePermission
+SafeVarargs                              Scanner
+ScheduledExecutorService                 ScheduledFuture
+ScheduledThreadPoolExecutor              SecureCacheResponse
+SecureDirectoryStream                    SecurityException
+SecurityManager                          Semaphore
+SequenceInputStream                      Serializable
+SerializablePermission                   ServerSocket
+ServiceConfigurationError                ServiceLoader
+Set                                      Short
+SimpleFileVisitor                        SimpleTimeZone
+Socket                                   SocketAddress
+SocketException                          SocketImpl
+SocketImplFactory                        SocketOption
+SocketOptions                            SocketPermission
+SocketTimeoutException                   SortedMap
+SortedSet                                Spliterator
+Spliterators                             SplittableRandom
+Stack                                    StackOverflowError
+StackTraceElement                        StackWalker
+StandardCopyOption                       StandardOpenOption
+StandardProtocolFamily                   StandardSocketOptions
+StandardWatchEventKinds                  Stream
+StreamCorruptedException                 StreamSupport
+StreamTokenizer                          StrictMath
+String                                   StringBuffer
+StringBufferInputStream                  StringBuilder
+StringIndexOutOfBoundsException          StringJoiner
+StringReader                             StringTokenizer
+StringWriter                             SubmissionPublisher
+Supplier                                 SuppressWarnings
+SyncFailedException                      SynchronousQueue
+System                                   Thread
+ThreadDeath                              ThreadFactory
+ThreadGroup                              ThreadLocal
+ThreadLocalRandom                        ThreadPoolExecutor
+Throwable                                TimeUnit
+TimeZone                                 TimeoutException
+Timer                                    TimerTask
+ToDoubleBiFunction                       ToDoubleFunction
+ToIntBiFunction                          ToIntFunction
+ToLongBiFunction                         ToLongFunction
+TooManyListenersException                TransferQueue
+TreeMap                                  TreeSet
+TypeNotPresentException                  URI
+URISyntaxException                       URL
+URLClassLoader                           URLConnection
+URLDecoder                               URLEncoder
+URLPermission                            URLStreamHandler
+URLStreamHandlerFactory                  UTFDataFormatException
+UUID                                     UnaryOperator
+UncheckedIOException                     UnknownError
+UnknownFormatConversionException         UnknownFormatFlagsException
+UnknownHostException                     UnknownServiceException
+UnsatisfiedLinkError                     UnsupportedClassVersionError
+UnsupportedEncodingException             UnsupportedOperationException
+Vector                                   VerifyError
+VirtualMachineError                      Void
+WatchEvent                               WatchKey
+WatchService                             Watchable
+WeakHashMap                              WriteAbortedException
+Writer                                   boolean
+byte                                     char
+com.                                     double
+float                                    int
+java.                                    javax.
+jdk.                                     long
+netscape.                                org.
+short                                    sun.
+jshell> List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker",   ...>
+jshell> List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker",   ...>
+AbstractCollection                       AbstractExecutorService
+AbstractList                             AbstractMap
+AbstractMethodError                      AbstractPreferences
+AbstractQueue                            AbstractSequentialList
+AbstractSet                              AccessDeniedException
+AccessMode                               Appendable
+ArithmeticException                      ArrayBlockingQueue
+ArrayDeque                               ArrayIndexOutOfBoundsException
+ArrayList                                ArrayStoreException
+Arrays                                   AssertionError
+AtomicMoveNotSupportedException          Authenticator
+AutoCloseable                            BackingStoreException
+Base64                                   BaseStream
+BiConsumer                               BiFunction
+BiPredicate                              BigDecimal
+BigInteger                               BinaryOperator
+BindException                            BitSet
+BlockingDeque                            BlockingQueue
+Boolean                                  BooleanSupplier
+BootstrapMethodError                     BrokenBarrierException
+BufferedInputStream                      BufferedOutputStream
+BufferedReader                           BufferedWriter
+Byte                                     ByteArrayInputStream
+ByteArrayOutputStream                    CacheRequest
+CacheResponse                            Calendar
+Callable                                 CancellationException
+CharArrayReader                          CharArrayWriter
+CharConversionException                  CharSequence
+Character                                Class
+ClassCastException                       ClassCircularityError
+ClassFormatError                         ClassLoader
+ClassNotFoundException                   ClassValue
+CloneNotSupportedException               Cloneable
+Closeable                                ClosedDirectoryStreamException
+ClosedFileSystemException                ClosedWatchServiceException
+Collection                               Collections
+Collector                                Collectors
+Comparable                               Comparator
+Compiler                                 CompletableFuture
+CompletionException                      CompletionService
+CompletionStage                          ConcurrentHashMap
+ConcurrentLinkedDeque                    ConcurrentLinkedQueue
+ConcurrentMap                            ConcurrentModificationException
+ConcurrentNavigableMap                   ConcurrentSkipListMap
+ConcurrentSkipListSet                    ConnectException
+Console                                  Consumer
+ContentHandler                           ContentHandlerFactory
+CookieHandler                            CookieManager
+CookiePolicy                             CookieStore
+CopyOnWriteArrayList                     CopyOnWriteArraySet
+CopyOption                               CountDownLatch
+CountedCompleter                         Currency
+CyclicBarrier                            DataInput
+DataInputStream                          DataOutput
+DataOutputStream                         DatagramPacket
+DatagramSocket                           DatagramSocketImpl
+DatagramSocketImplFactory                Date
+DelayQueue                               Delayed
+Deprecated                               Deque
+Dictionary                               DirectoryIteratorException
+DirectoryNotEmptyException               DirectoryStream
+Double                                   DoubleBinaryOperator
+DoubleConsumer                           DoubleFunction
+DoublePredicate                          DoubleStream
+DoubleSummaryStatistics                  DoubleSupplier
+DoubleToIntFunction                      DoubleToLongFunction
+DoubleUnaryOperator                      DuplicateFormatFlagsException
+EOFException                             EmptyStackException
+Enum                                     EnumConstantNotPresentException
+EnumMap                                  EnumSet
+Enumeration                              Error
+EventListener                            EventListenerProxy
+EventObject                              Exception
+ExceptionInInitializerError              Exchanger
+ExecutionException                       Executor
+ExecutorCompletionService                ExecutorService
+Executors                                Externalizable
+File                                     FileAlreadyExistsException
+FileDescriptor                           FileFilter
+FileInputStream                          FileNameMap
+FileNotFoundException                    FileOutputStream
+FilePermission                           FileReader
+FileStore                                FileSystem
+FileSystemAlreadyExistsException         FileSystemException
+FileSystemLoopException                  FileSystemNotFoundException
+FileSystems                              FileVisitOption
+FileVisitResult                          FileVisitor
+FileWriter                               FilenameFilter
+Files                                    FilterInputStream
+FilterOutputStream                       FilterReader
+FilterWriter                             Float
+Flow                                     Flushable
+ForkJoinPool                             ForkJoinTask
+ForkJoinWorkerThread                     FormatFlagsConversionMismatchException
+Formattable                              FormattableFlags
+Formatter                                FormatterClosedException
+Function                                 FunctionalInterface
+Future                                   FutureTask
+GregorianCalendar                        HashMap
+HashSet                                  Hashtable
+HttpCookie                               HttpRetryException
+HttpURLConnection                        IDN
+IOError                                  IOException
+IdentityHashMap                          IllegalAccessError
+IllegalAccessException                   IllegalArgumentException
+IllegalCallerException                   IllegalFormatCodePointException
+IllegalFormatConversionException         IllegalFormatException
+IllegalFormatFlagsException              IllegalFormatPrecisionException
+IllegalFormatWidthException              IllegalMonitorStateException
+IllegalStateException                    IllegalThreadStateException
+IllformedLocaleException                 IncompatibleClassChangeError
+IndexOutOfBoundsException                Inet4Address
+Inet6Address                             InetAddress
+InetSocketAddress                        InheritableThreadLocal
+InputMismatchException                   InputStream
+InputStreamReader                        InstantiationError
+InstantiationException                   IntBinaryOperator
+IntConsumer                              IntFunction
+IntPredicate                             IntStream
+IntSummaryStatistics                     IntSupplier
+IntToDoubleFunction                      IntToLongFunction
+IntUnaryOperator                         Integer
+InterfaceAddress                         InternalError
+InterruptedException                     InterruptedIOException
+InvalidClassException                    InvalidObjectException
+InvalidPathException                     InvalidPreferencesFormatException
+InvalidPropertiesFormatException         Iterable
+Iterator                                 JarURLConnection
+LayerInstantiationException              LineNumberInputStream
+LineNumberReader                         LinkOption
+LinkPermission                           LinkageError
+LinkedBlockingDeque                      LinkedBlockingQueue
+LinkedHashMap                            LinkedHashSet
+LinkedList                               LinkedTransferQueue
+List                                     ListIterator
+ListResourceBundle                       Locale
+Long                                     LongBinaryOperator
+LongConsumer                             LongFunction
+LongPredicate                            LongStream
+LongSummaryStatistics                    LongSupplier
+LongToDoubleFunction                     LongToIntFunction
+LongUnaryOperator                        MalformedURLException
+Map                                      MatchResult
+Matcher                                  Math
+MathContext                              MissingFormatArgumentException
+MissingFormatWidthException              MissingResourceException
+Module                                   ModuleLayer
+MulticastSocket                          NavigableMap
+NavigableSet                             NegativeArraySizeException
+NetPermission                            NetworkInterface
+NoClassDefFoundError                     NoRouteToHostException
+NoSuchElementException                   NoSuchFieldError
+NoSuchFieldException                     NoSuchFileException
+NoSuchMethodError                        NoSuchMethodException
+NodeChangeEvent                          NodeChangeListener
+NotActiveException                       NotDirectoryException
+NotLinkException                         NotSerializableException
+NullPointerException                     Number
+NumberFormatException                    ObjDoubleConsumer
+ObjIntConsumer                           ObjLongConsumer
+Object                                   ObjectInput
+ObjectInputFilter                        ObjectInputStream
+ObjectInputValidation                    ObjectOutput
+ObjectOutputStream                       ObjectStreamClass
+ObjectStreamConstants                    ObjectStreamException
+ObjectStreamField                        Objects
+Observable                               Observer
+OpenOption                               Optional
+OptionalDataException                    OptionalDouble
+OptionalInt                              OptionalLong
+OutOfMemoryError                         OutputStream
+OutputStreamWriter                       Override
+Package                                  PasswordAuthentication
+Path                                     PathMatcher
+Paths                                    Pattern
+PatternSyntaxException                   Phaser
+PipedInputStream                         PipedOutputStream
+PipedReader                              PipedWriter
+PortUnreachableException                 Predicate
+PreferenceChangeEvent                    PreferenceChangeListener
+Preferences                              PreferencesFactory
+PrimitiveIterator                        PrintStream
+PrintWriter                              PriorityBlockingQueue
+PriorityQueue                            Process
+ProcessBuilder                           ProcessHandle
+Properties                               PropertyPermission
+PropertyResourceBundle                   ProtocolException
+ProtocolFamily                           ProviderMismatchException
+ProviderNotFoundException                Proxy
+ProxySelector                            PushbackInputStream
+PushbackReader                           Queue
+Random                                   RandomAccess
+RandomAccessFile                         ReadOnlyFileSystemException
+Readable                                 Reader
+RecursiveAction                          RecursiveTask
+ReflectiveOperationException             RejectedExecutionException
+RejectedExecutionHandler                 ResourceBundle
+ResponseCache                            RoundingMode
+Runnable                                 RunnableFuture
+RunnableScheduledFuture                  Runtime
+RuntimeException                         RuntimePermission
+SafeVarargs                              Scanner
+ScheduledExecutorService                 ScheduledFuture
+ScheduledThreadPoolExecutor              SecureCacheResponse
+SecureDirectoryStream                    SecurityException
+SecurityManager                          Semaphore
+SequenceInputStream                      Serializable
+SerializablePermission                   ServerSocket
+ServiceConfigurationError                ServiceLoader
+Set                                      Short
+SimpleFileVisitor                        SimpleTimeZone
+Socket                                   SocketAddress
+SocketException                          SocketImpl
+SocketImplFactory                        SocketOption
+SocketOptions                            SocketPermission
+SocketTimeoutException                   SortedMap
+SortedSet                                Spliterator
+Spliterators                             SplittableRandom
+Stack                                    StackOverflowError
+StackTraceElement                        StackWalker
+StandardCopyOption                       StandardOpenOption
+StandardProtocolFamily                   StandardSocketOptions
+StandardWatchEventKinds                  Stream
+StreamCorruptedException                 StreamSupport
+StreamTokenizer                          StrictMath
+String                                   StringBuffer
+StringBufferInputStream                  StringBuilder
+StringIndexOutOfBoundsException          StringJoiner
+StringReader                             StringTokenizer
+StringWriter                             SubmissionPublisher
+Supplier                                 SuppressWarnings
+SyncFailedException                      SynchronousQueue
+System                                   Thread
+ThreadDeath                              ThreadFactory
+ThreadGroup                              ThreadLocal
+ThreadLocalRandom                        ThreadPoolExecutor
+Throwable                                TimeUnit
+TimeZone                                 TimeoutException
+Timer                                    TimerTask
+ToDoubleBiFunction                       ToDoubleFunction
+ToIntBiFunction                          ToIntFunction
+ToLongBiFunction                         ToLongFunction
+TooManyListenersException                TransferQueue
+TreeMap                                  TreeSet
+TypeNotPresentException                  URI
+URISyntaxException                       URL
+URLClassLoader                           URLConnection
+URLDecoder                               URLEncoder
+URLPermission                            URLStreamHandler
+URLStreamHandlerFactory                  UTFDataFormatException
+UUID                                     UnaryOperator
+UncheckedIOException                     UnknownError
+UnknownFormatConversionException         UnknownFormatFlagsException
+UnknownHostException                     UnknownServiceException
+UnsatisfiedLinkError                     UnsupportedClassVersionError
+UnsupportedEncodingException             UnsupportedOperationException
+Vector                                   VerifyError
+VirtualMachineError                      Void
+WatchEvent                               WatchKey
+WatchService                             Watchable
+WeakHashMap                              WriteAbortedException
+Writer                                   boolean
+byte                                     char
+com.                                     double
+float                                    int
+java.                                    javax.
+jdk.                                     long
+netscape.                                org.
+short                                    sun.
+jshell> List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker",
+   ...> "Kubernetes")
+courses ==> [Spring, Spring Boot, API, Microservices, AWS, PCF, Azure, Docker, Kubernetes]
+
+jshell> List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker"," ubernetes")
+courses ==> [Spring, Spring Boot, API, Microservices, AWS, PCF, Azure, Docker, Kubernetes]
+
+jshell>
+
+jshell> System.out.println(courses)
+[Spring, Spring Boot, API, Microservices, AWS, PCF, Azure, Docker, Kubernetes]
+
+jshell> courses.straem().filter(c -> c.contains("Spri")).System.out.println
+|  Error:
+|  cannot find symbol
+|    symbol:   method straem()
+|  courses.straem().filter(c -> c.contains("Spri")).System.out.println
+|  ^------------^
+
+jshell> courses.stream().filter(c -> c.contains("Spri")).System.out.println
+|  Error:
+|  cannot find symbol
+|    symbol:   variable System
+|  courses.stream().filter(c -> c.contains("Spri")).System.out.println
+|  ^-----------------------------------------------------^
+
+jshell> courses.stream().filter(c -> c.contains("Spri")).System.out:println
+|  Error:
+|  ';' expected
+|  courses.stream().filter(c -> c.contains("Spri")).System.out:println
+|                                                             ^
+|  Error:
+|  not a statement
+|  courses.stream().filter(c -> c.contains("Spri")).System.out:println
+|                                                              ^-----^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable System
+|  courses.stream().filter(c -> c.contains("Spri")).System.out:println
+|  ^-----------------------------------------------------^
+|  Error:
+|  missing return statement
+|  courses.stream().filter(c -> c.contains("Spri")).System.out:println
+|  ^-----------------------------------------------------------------^
+
+jshell> courses.stream().System.out:println
+|  Error:
+|  ';' expected
+|  courses.stream().System.out:println
+|                             ^
+|  Error:
+|  not a statement
+|  courses.stream().System.out:println
+|                              ^-----^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable System
+|  courses.stream().System.out:println
+|  ^---------------------^
+|  Error:
+|  missing return statement
+|  courses.stream().System.out:println
+|  ^---------------------------------^
+
+jshell> courses.stream().System.out::println
+|  Error:
+|  cannot find symbol
+|    symbol:   variable System
+|  courses.stream().System.out::println
+|  ^---------------------^
+
+jshell> courses.stream().filter(s -> s.contains("Spring")).forEach(System.out::println)
+Spring
+Spring Boot
+
+jshell> courses.stream().reduce(" " + (a + " " + b))
+|  Error:
+|  cannot find symbol
+|    symbol:   variable a
+|  courses.stream().reduce(" " + (a + " " + b))
+|                                 ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable b
+|  courses.stream().reduce(" " + (a + " " + b))
+|                                           ^
+
+jshell> courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|  Error:
+|  ';' expected
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                            ^
+|  Error:
+|  not a statement
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                              ^---------^
+|  Error:
+|  ';' expected
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                                         ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable a
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable b
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                          ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable a
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                              ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable b
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                                        ^
+|  Error:
+|  missing return statement
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|  ^-------------------------------------------------------^
+
+jshell> courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|  Error:
+|  ';' expected
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                            ^
+|  Error:
+|  not a statement
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                              ^---------^
+|  Error:
+|  ';' expected
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                                         ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable a
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable b
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                          ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable a
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                              ^
+|  Error:
+|  cannot find symbol
+|    symbol:   variable b
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|                                                        ^
+|  Error:
+|  missing return statement
+|  courses.stream().reduce(" " + a + " " + b) (a + " " + b))
+|  ^-------------------------------------------------------^
+
+jshell> courses.stream().reduce(" " ,  (a , b) ->  (a + " " + b))
+$5 ==> "  Spring Spring Boot API Microservices AWS PCF Azure Docker Kubernetes"
+
+jshell> courses.stream().reduce("" ,  (a , b) ->  (a + " " + b))
+$6 ==> " Spring Spring Boot API Microservices AWS PCF Azure Docker Kubernetes"
+
+jshell> courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).map( s -> s.substring(2, s.length))
+|  Error:
+|  cannot find symbol
+|    symbol:   method map((s)->s.sub[...]ngth))
+|  courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).map( s -> s.substring(2, s.length))
+|  ^----------------------------------------------------------^
+
+jshell> courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).map( s -> s.substring(2, s.length)).forEach(System.out::print)
+|  Error:
+|  cannot find symbol
+|    symbol:   method map((s)->s.sub[...]ngth))
+|  courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).map( s -> s.substring(2, s.length)).forEach(System.out::print)
+|  ^----------------------------------------------------------^
+
+jshell> courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).stream().map( s -> s.substring(2. s.lenght))
+|  Error:
+|  ')' expected
+|  courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).stream().map( s -> s.substring(2. s.lenght))
+|                                                                                            ^
+
+jshell> courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).stream().map( s -> s.substring(2, s.lenght))
+|  Error:
+|  cannot find symbol
+|    symbol:   method stream()
+|  courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).stream().map( s -> s.substring(2, s.lenght))
+|  ^-------------------------------------------------------------^
+
+jshell> courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).stream().map( s -> s.substring(2, s.lenght))
+|  Error:
+|  cannot find symbol
+|    symbol:   method stream()
+|  courses.stream().reduce("" ,  (a , b) ->  (a + " " + b)).stream().map( s -> s.substring(2, s.lenght))
+|  ^-------------------------------------------------------------^
+
+jshell> List<Integer> nums = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9)
+nums ==> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+jshell> nums
+nums ==> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+jshell> nums.stream().map( x -> x*x).reduce(0, (x, y) -> x+y)
+$9 ==> 285
+
+jshell> List<Integer> nums = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+nums ==> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+jshell> nums.stream().map( x -> x*x).reduce(0, (x, y) -> x+y)
+$11 ==> 385
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10).stream().map( x -> x*x).reduce(0, (x, y) -> x+y)
+$12 ==> 385
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10).stream().filter(x -> x%2 != 0).reduce(0, (x, y) -> x+y)
+$13 ==> 25
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10).stream().filter(x -> x%2 != 0).reduce(0, Integer::Sum)
+|  Error:
+|  invalid method reference
+|    cannot find symbol
+|      symbol:   method Sum()
+|  List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10).stream().filter(x -> x%2 != 0).reduce(0, Integer::Sum)
+|                                                                                  ^----------^
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10).stream().filter(x -> x%2 != 0).reduce(0, Integer::sum)
+$14 ==> 25
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5).stream().distinct()
+$15 ==> java.util.stream.DistinctOps$1@31ef45e3
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5).stream().distinct().sorted()
+$16 ==> java.util.stream.SortedOps$OfRef@553f17c
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5).stream().distinct().sorted().forEach(System.out::println)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+jshell> List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5).stream().sorted().forEach(System.out::println)
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+7
+8
+9
+10
+
+jshell> List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker",
+ "Kubernetes")
+courses ==> [Spring, Spring Boot, API, Microservices, AWS, PCF, Azure, Docker, Kubernetes]
+
+jshell> courses.stream().sorted().forEach(System.out.println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable println
+|  courses.stream().sorted().forEach(System.out.println)
+|                                    ^----------------^
+
+jshell> courses.stream().sorted().forEach(System.out::println)
+API
+AWS
+Azure
+Docker
+Kubernetes
+Microservices
+PCF
+Spring
+Spring Boot
+
+jshell> courses.stream().sorted(Comparetor.naturalOrder).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable Comparetor
+|  courses.stream().sorted(Comparetor.naturalOrder).forEach(System.out::println)
+|                          ^--------^
+
+jshell> courses.stream().sorted(Comparator.naturalOrder).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable naturalOrder
+|  courses.stream().sorted(Comparator.naturalOrder).forEach(System.out::println)
+|                          ^---------------------^
+
+jshell> courses.stream().sorted(Comparator.naturlOrder).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable naturlOrder
+|  courses.stream().sorted(Comparator.naturlOrder).forEach(System.out::println)
+|                          ^--------------------^
+
+jshell> courses.stream().sorted(Comparator.naturalOrder()).forEach(System.out::println)
+API
+AWS
+Azure
+Docker
+Kubernetes
+Microservices
+PCF
+Spring
+Spring Boot
+
+jshell> courses.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println)
+Spring Boot
+Spring
+PCF
+Microservices
+Kubernetes
+Docker
+Azure
+AWS
+API
+
+jshell> courses.stream().sorted(Comparator.comparaing(s -> s.length)).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   method comparaing((s)->s.length)
+|  courses.stream().sorted(Comparator.comparaing(s -> s.length)).forEach(System.out::println)
+|                          ^-------------------^
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s.length)).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable length
+|  courses.stream().sorted(Comparator.comparing(s -> s.length)).forEach(System.out::println)
+|                                                    ^------^
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s.length())).forEach(System.out::println)
+API
+AWS
+PCF
+Azure
+Spring
+Docker
+Kubernetes
+Spring Boot
+Microservices
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s)).forEach(System.out::println)
+API
+AWS
+Azure
+Docker
+Kubernetes
+Microservices
+PCF
+Spring
+Spring Boot
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s[2])).forEach(System.out::println)
+|  Error:
+|  array required, but java.lang.String found
+|  courses.stream().sorted(Comparator.comparing(s -> s[2])).forEach(System.out::println)
+|                                                    ^--^
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s[2]+"")).forEach(System.out::println)
+|  Error:
+|  array required, but java.lang.String found
+|  courses.stream().sorted(Comparator.comparing(s -> s[2]+"")).forEach(System.out::println)
+|                                                    ^--^
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s[s.length-1])).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable length
+|  courses.stream().sorted(Comparator.comparing(s -> s[s.length-1])).forEach(System.out::println)
+|                                                      ^------^
+|  Error:
+|  array required, but java.lang.String found
+|  courses.stream().sorted(Comparator.comparing(s -> s[s.length-1])).forEach(System.out::println)
+|                                                    ^-----------^
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s[s.length-1]+"")).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable length
+|  courses.stream().sorted(Comparator.comparing(s -> s[s.length-1]+"")).forEach(System.out::println)
+|                                                      ^------^
+|  Error:
+|  array required, but java.lang.String found
+|  courses.stream().sorted(Comparator.comparing(s -> s[s.length-1]+"")).forEach(System.out::println)
+|                                                    ^-----------^
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s+"")).forEach(System.out::println)
+API
+AWS
+Azure
+Docker
+Kubernetes
+Microservices
+PCF
+Spring
+Spring Boot
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> "a"s+"")).forEach(System.out::println)
+|  Error:
+|  ')' expected
+|  courses.stream().sorted(Comparator.comparing(s -> "a"s+"")).forEach(System.out::println)
+|                                                       ^
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> "a"+s+"")).forEach(System.out::println)
+API
+AWS
+Azure
+Docker
+Kubernetes
+Microservices
+PCF
+Spring
+Spring Boot
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s.substring(3))).forEach(System.out::println)
+API
+AWS
+PCF
+Kubernetes
+Spring
+Spring Boot
+Docker
+Azure
+Microservices
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s.substring(2))).forEach(System.out::println)
+PCF
+API
+AWS
+Kubernetes
+Docker
+Microservices
+Spring
+Spring Boot
+Azure
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s.substring(1))).forEach(System.out::println)
+PCF
+API
+AWS
+Microservices
+Docker
+Spring
+Spring Boot
+Kubernetes
+Azure
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s.substring(2))).forEach(System.out::println)
+PCF
+API
+AWS
+Kubernetes
+Docker
+Microservices
+Spring
+Spring Boot
+Azure
+
+jshell> courses.stream().sorted(Comparator.comparing(s -> s.substring(0))).forEach(System.out::println)
+API
+AWS
+Azure
+Docker
+Kubernetes
+Microservices
+PCF
+Spring
+Spring Boot
+
+jshell> courses.stream().map(s -> s.length).collect(Collectors.asList())
+|  Error:
+|  cannot find symbol
+|    symbol:   variable length
+|  courses.stream().map(s -> s.length).collect(Collectors.asList())
+|                            ^------^
+|  Error:
+|  cannot find symbol
+|    symbol:   method asList()
+|  courses.stream().map(s -> s.length).collect(Collectors.asList())
+|                                              ^---------------^
+
+jshell> courses.stream().map(s -> s.length).collect(Collectors.toList())
+|  Error:
+|  cannot find symbol
+|    symbol:   variable length
+|  courses.stream().map(s -> s.length).collect(Collectors.toList())
+|                            ^------^
+
+jshell> courses.stream().map(s -> s.length).collect(Collectors.toList())
+|  Error:
+|  cannot find symbol
+|    symbol:   variable length
+|  courses.stream().map(s -> s.length).collect(Collectors.toList())
+|                            ^------^
+
+jshell> courses.stream().map(s -> s.length).forEach(System.out::println)
+|  Error:
+|  cannot find symbol
+|    symbol:   variable length
+|  courses.stream().map(s -> s.length).forEach(System.out::println)
+|                            ^------^
+
+jshell>
+
+jshell> courses.stream().map(s -> s.length()).forEach(System.out::println)
+6
+11
+3
+13
+3
+3
+5
+6
+10
+
+jshell> courses.stream().map(s -> s.length()).collect(Collectors.toList())
+$33 ==> [6, 11, 3, 13, 3, 3, 5, 6, 10]
+
+jshell> List<Integer> strLengths = courses.stream().map(s -> s.length()).collect(Collectors.toList())
+strLengths ==> [6, 11, 3, 13, 3, 3, 5, 6, 10]
+
+jshell> strLengths
+strLengths ==> [6, 11, 3, 13, 3, 3, 5, 6, 10]
+
+jshell> List<Integer> strLengths = courses.stream().map(s -> s.length()).filter(x -> x%2 ==0).collect(Collectors.toList(
+ )
+strLengths ==> [6, 6, 10]
+
+jshell> List<Integer> strLengths = courses.stream().map(s -> s.length()).filter(x -> x%2 ==0).distinct().collect(Collect
+o  .toList())
+strLengths ==> [6, 10]
+
+jshell> List<Integer> strLengths = courses.stream().map(s -> s.length()).filter(x -> x%2 ==0).distinct().sorted(Comparator.reverseOrder())    le      le   rs.toList())
+strLengths ==> [10, 6]
+
+jshell> List<Integer> strLengths = courses.stream().map(s -> s.length()).filter(x -> x%2 ==0).distinct().sorted(Comparator.reverseOrder()).collect(Collectors.toList())
+strLengths ==> [10, 6]
+
+jshell> List<Integer> strLengths = courses.stream().map(s -> s.length()).filter(x -> x%2 ==0).distinct().sorted(Comparator.naturalOrder()).collect(Collectors.toList())
+strLengths ==> [6, 10]

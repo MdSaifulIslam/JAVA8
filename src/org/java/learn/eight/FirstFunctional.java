@@ -46,6 +46,7 @@ public class FirstFunctional {
 
 		Predicate<? super Integer> isEvenPredicate = i -> i % 2 == 0;
 		Function<? super Integer, ? extends Integer> dataMapper = x -> x / 2;
+		
 		Consumer<Integer> printConsumer2 = new Consumer<Integer>() {
 			public void accept(Integer t) {
 				System.out.println(t);
