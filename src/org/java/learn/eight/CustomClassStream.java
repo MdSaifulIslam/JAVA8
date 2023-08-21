@@ -1,10 +1,12 @@
 package org.java.learn.eight;
 
+import java.math.BigInteger;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 class Course {
 	private String courseName;
@@ -65,7 +67,7 @@ public class CustomClassStream {
 				new Course("Java", "Programming", 70, 64), 
 				new Course("DLD", "EEE", 65, 90),
 				new Course("VLSI", "EEE", 88, 60), 
-				new Course("C/C++", "CIT", 88, 30),
+				new Course("C/C++", "Programming", 88, 30),
 				new Course("Tharmal", "Physic", 15, 75), 
 				new Course("Soil", "Chemistry", 15, 25));
 
@@ -78,6 +80,48 @@ public class CustomClassStream {
 		Comparator<Course> courseComparator = Comparator.comparing(Course::getReviewScore)
 				.thenComparing(Course::getNoOfStudents).reversed();
 		System.out.println(courses.stream().sorted(courseComparator).collect(Collectors.toList()));
+		
+		Comparator<Course> courseNameComparatorAndGroup = Comparator.comparing(Course::getGroup)
+				.thenComparing(courseComparator);
+		
+		System.out.println(courses.stream().sorted(courseNameComparatorAndGroup)
+				//.skip(2)
+				.limit(2)
+				.collect(Collectors.toList()));
+		
+		System.out.println(
+				courses.stream()
+				.filter(course -> course.getGroup().equals("EEE"))
+				.max(courseNameComparatorAndGroup)
+				.orElse(new Course("else", "else", 2, 5))
+				);
+		
+		System.out.println(
+				courses.stream()
+				.filter(course -> course.getGroup().equals("EEE"))
+				.mapToInt(course -> course.getReviewScore())
+				.average()
+				);
+		
+		System.out.println(
+				courses.stream()
+				.collect(Collectors.groupingBy(Course::getReviewScore))
+				);
+		
+		System.out.println(
+				courses.stream()
+				.collect(Collectors.groupingBy(Course::getGroup, Collectors.partitioningBy(course -> course.getReviewScore() > 50)))
+				);
+		
+		System.out.println(
+				courses.stream()
+				.collect(Collectors.groupingBy(Course::getGroup, Collectors.mapping(Course::getCourseName, Collectors.toList())))
+				);
+		
+		
+		System.out.println(IntStream.range(1, 1000).mapToObj(BigInteger::valueOf).reduce(BigInteger.ONE, BigInteger::multiply));
+		
+		
 	}
 
 }
